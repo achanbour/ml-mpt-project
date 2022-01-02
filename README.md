@@ -10,7 +10,7 @@ Three securities are used to form the dataset: LNG (Cheniere Energy Inc.'s stock
 
 The best portfolio is selected according to the Sharpe ratio:
 
-![](https://latex.codecogs.com/svg.image?Sharpe&space;ratio&space;=&space;\frac{portfolio&space;return&space;-&space;risk&space;free&space;return}{portfolio&space;volatility)
+<img src="https://render.githubusercontent.com/render/math?math=Sharpe ratio = \frac{portfolio return - risk free return}{portfolio volatility">
 
 
 
