@@ -10,10 +10,7 @@ Three securities are used to form the dataset: LNG (Cheniere Energy Inc.'s stock
 
 The best portfolio is selected according to the Sharpe ratio:
 
-
-                 portfolio return  -  risk free return
-Sharpe ratio  =  -------------------------------------
-                          portfolio volatility
+![](https://latex.codecogs.com/svg.image?Sharpe&space;ratio&space;=&space;\frac{portfolio&space;return&space;-&space;risk&space;free&space;return}{portfolio&space;volatility)
 
 
 
@@ -36,6 +33,6 @@ Lastly, to graphically visualise predictions, we plot the 150th tree of our Rand
 
 ![](tree.png)
 
-At every node, 4 parameters are evaluated and shown: A stock's EWMA price as features, the squared error, the sample size and the stocks' weights as targets.
+At every node, 4 parameters are evaluated and shown: The EWMA of a stock's price as features, the squared error, the sample size and the stocks' weights as targets.
 
 
